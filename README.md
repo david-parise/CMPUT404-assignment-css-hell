@@ -12,6 +12,19 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Submission Information
+====================
+
+The selected Gutenberg eBooks for CSS styling:
+
+1. Frankenstein: https://www.gutenberg.org/ebooks/84
+2. The Adventures of Sherlock Holmes: https://www.gutenberg.org/ebooks/1661
+3. Moby Dick: https://www.gutenberg.org/ebooks/2701
+
+Modifications made to HTML files:
+
+* Removed opening block before heading
+
 License/Copyright
 =================
 
