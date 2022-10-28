@@ -1,0 +1,101 @@
+.left-img {
+    float: left;
+    width: 90pt;
+    margin: 10pt;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 150pt;
+    background: linear-gradient(#333, #000);
+    text-align: center;
+}
+
+h1, h3 {
+    font-weight: normal;
+}
+
+.header {
+    color: whitesmoke;
+    font-size: 3em;
+    margin-bottom: 10pt;
+}
+
+.subheader {
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+main {
+    height: 100%;
+    margin: 0 15%;
+    padding-bottom: 50pt;
+}
+
+.sidebar {
+    height: 100%;
+    padding: 1em 1em;
+    width: 15em;
+    margin: 5%;
+    float: right;
+    background-color: #333;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 2em;
+}
+
+.skill-list {
+    padding: 0 2em;
+}
+
+.skill {
+    list-style-type: circle;
+    margin-bottom: 1em;
+}
+
+.section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer {
+    margin: 0 5%;
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav li a:hover {
+    background-color: #000;
+}

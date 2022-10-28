@@ -1,0 +1,107 @@
+body {
+        margin: 0;
+        background-color: #000000;
+        background-image: url("images/star-space-tile.jpg");
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: lightblue;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    text-align: center;
+    height: 150pt;
+}
+
+.header {
+    color: cyan;
+    font-size: 3em;
+    margin-bottom: 10pt;
+}
+
+.subheader {
+    color: orange;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-img {
+    float: left;
+    width: 90pt;
+    margin: 10pt;
+}
+
+h1 {
+    color: cyan
+}
+
+p {
+    color: pink;
+    font-size: large;
+}
+
+h2 {
+    color: yellow;
+    font-size: larger;
+}
+
+h3 {
+    font-size: medium;
+    color: orange;
+    text-align: center;
+}
+
+main {
+    height: 100%;
+    margin: 10%;
+    padding-bottom: 50pt;
+}
+
+.sidebar {
+    margin: 5%;
+    padding: 1em;
+    float: right;
+    background: linear-gradient(0deg, #e541c0, #9a24f2);
+    text-align: justify;
+    border-radius: 15px;
+}
+
+.skill-list {
+    padding: 10%;
+}
+
+.skill {
+    list-style-type: decimal;
+    margin-bottom: 1em;;
+}
+
+.section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+#about {
+    background-color: brown;
+    margin-right: 20%;
+}
+
+#experience {
+    background-color: brown;
+    margin-right: 20%;
+}
+
+#reasons {
+    background-color: brown;
+    margin-right: 20%;
+}
+
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
